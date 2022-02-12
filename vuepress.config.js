@@ -4,5 +4,6 @@ module.exports={
   head: [['link', { rel: 'icon', href: '/blog/images/icon.png' }]],
   plugins:[
     '@vuepress/plugin-search'
-  ]
+  ],
+  title:'还没想好'
 }
