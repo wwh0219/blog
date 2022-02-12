@@ -1,3 +1,3 @@
 module.exports={
-  sidebar:require('./sidebar')
+  sidebar:require('./sidebar'),
 }

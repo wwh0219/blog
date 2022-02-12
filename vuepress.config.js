@@ -1,3 +1,4 @@
 module.exports={
-  themeConfig:require('./config/themeConfig')
+  themeConfig:require('./config/themeConfig'),
+  base:'/blog'
 }
