@@ -1,71 +1,6 @@
 module.exports=[
   // SidebarItem
   {
-    text: '基础知识',
-    children: [
-      {
-        text: 'bfc',
-        link: '/base/bfc',
-      },
-      {
-        text: 'event-loop',
-        link: '/base/event-loop',
-      },
-      {
-        text:'typescript',
-        children:[
-          {
-            text:'process.env变量声明合并',
-            link:'/base/ts/process.env'
-          },
-          {
-            text:'infer(todo)',
-            link:'/base/ts/infer'
-          }
-        ]
-      }
-    ],
-  },
-  {
-    text:'监控',
-    children:[
-      {
-        text:'错误捕获(todo)',
-        link:'/monitor/error-catch'
-      },
-      {
-        text:'workbox踩坑记录',
-        link:'/monitor/workbox'
-      },
-      {
-        text:'加载性能指标',
-        link:'/monitor/performance'
-      }
-    ]
-  },
-  {
-    text:'组件',
-    children:[
-      {
-        text:'vue',
-        children:[
-          {
-            text:'render',
-            link:'/components/vue/render'
-          },
-          {
-            text:'虚拟列表',
-            link:'/components/vue/virtual-list'
-          }
-        ]
-      },
-      {
-        text:'karma单元测试环境搭建(todo)',
-        link:'/components/karma-example'
-      }
-    ]
-  },
-  {
     text:'源码分析',
     children:[
       {
@@ -85,23 +20,6 @@ module.exports=[
           }
         ]
       }
-    ]
-  },
-  {
-    text:'问题记录',
-    children:[
-      {
-        text:'开发环境搭建相关',
-        link:'/issues/dev-env',
-      },
-      {
-        text:'ios web',
-        link:'/issues/ios-web',
-      },
-      {
-        text:'npm link调试错处理',
-        link:'/issues/npm-link-dev',
-      },
     ]
   },
   {
@@ -133,5 +51,90 @@ module.exports=[
         ]
       }
     ]
-  }
+  },
+  {
+    text:'监控',
+    children:[
+      {
+        text:'错误捕获(todo)',
+        link:'/monitor/error-catch'
+      },
+      {
+        text:'workbox踩坑记录',
+        link:'/monitor/workbox'
+      },
+      {
+        text:'加载性能指标',
+        link:'/monitor/performance'
+      }
+    ]
+  },
+  {
+    text: '基础知识',
+    children: [
+      {
+        text: 'bfc',
+        link: '/base/bfc',
+      },
+      {
+        text: 'event-loop',
+        link: '/base/event-loop',
+      },
+      {
+        text:'typescript',
+        children:[
+          {
+            text:'process.env变量声明合并',
+            link:'/base/ts/process.env'
+          },
+          {
+            text:'infer(todo)',
+            link:'/base/ts/infer'
+          }
+        ]
+      }
+    ],
+  },
+ 
+  {
+    text:'组件',
+    children:[
+      {
+        text:'vue',
+        children:[
+          {
+            text:'render',
+            link:'/components/vue/render'
+          },
+          {
+            text:'虚拟列表',
+            link:'/components/vue/virtual-list'
+          }
+        ]
+      },
+      {
+        text:'karma单元测试环境搭建(todo)',
+        link:'/components/karma-example'
+      }
+    ]
+  },
+ 
+  {
+    text:'问题记录',
+    children:[
+      {
+        text:'开发环境搭建相关',
+        link:'/issues/dev-env',
+      },
+      {
+        text:'ios web',
+        link:'/issues/ios-web',
+      },
+      {
+        text:'npm link调试错处理',
+        link:'/issues/npm-link-dev',
+      },
+    ]
+  },
+  
 ]
