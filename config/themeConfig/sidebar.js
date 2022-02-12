@@ -42,7 +42,7 @@ module.exports=[
           },
           {
             text:'函数式弹窗调用',
-            link:'/business/vue/table-column'
+            link:'/business/vue/functional-invoke-dialog'
           },
           {
             text:'路由懒加载过度动画',
@@ -85,7 +85,7 @@ module.exports=[
         children:[
           {
             text:'process.env变量声明合并',
-            link:'/base/ts/process.env'
+            link:'/base/ts/process-env'
           },
           {
             text:'infer(todo)',
