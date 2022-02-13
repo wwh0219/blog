@@ -59,7 +59,7 @@ axios.interceptors.response.use(function (response) {
 
 这里主要讲的是运行时错误的分析，主要通过分析上报的错误信息来定位出错的源码
 
-由于还原源码需要用到sourcemap文件，生产中一般不能暴露源码信息但又需要生成对应的sourcemap文件，可以将**webpack**配置的**[devtool](https://www.webpackjs.com/configuration/devtool/)**值设置为**hidden-source-map**，然后将sourcemap文件上传到错误分析的服务器存放。
+由于还原源码需要用到sourcemap文件，生产中一般不能暴露源码信息但又需要生成对应的sourcemap文件，可以将**webpack**配置的[devtool](https://www.webpackjs.com/configuration/devtool/)值设置为hidden-**source-map**，然后将sourcemap文件上传到错误分析的服务器存放。
 
 这里默认场景为服务端收集到错误信息后储存起来，发送告警信息给开发者，开发者使用信息中提供的id去查询对应的错误信息，服务端根据id查询到对应的错误信息由上文中提到的**error.message、error.stack**来解析错误
 
@@ -130,7 +130,7 @@ async function errorParse(message,stack){
 ]
 ```
 
-可以使用**[monaco-editor](https://microsoft.github.io/monaco-editor/)**来展示错误信息，下面演示解析单个文件错误信息的组件
+可以使用[monaco-editor](https://microsoft.github.io/monaco-editor/)来展示错误信息，下面演示解析单个文件错误信息的组件
 
 ```html
 <template>
@@ -177,6 +177,7 @@ export default {
     ]);
   },
 };
+</script>
 ```
 
 
