@@ -56,7 +56,7 @@ module.exports=[
     text:'监控',
     children:[
       {
-        text:'错误捕获(todo)',
+        text:'错误捕获',
         link:'/monitor/error-catch'
       },
       {
