@@ -1,5 +1,13 @@
 # 加载性能监控指标
 
+参考资料：
+
+[performance api时间线](https://www.w3.org/TR/navigation-timing-2/#processing-model)
+
+[关键渲染路径](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp)
+
+[LCP、FID、CLS指标相关](https://web.dev/i18n/zh/vitals/)
+
 ```javascript
 //获取性能数据
 const perf=performance.getEntriesByType('navigation').slice(-1)[0]
@@ -35,3 +43,4 @@ console.table({
   resourceLoadTime
 })
 ```
+
