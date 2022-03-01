@@ -4,5 +4,6 @@ module.exports={
   logo:'/images/home.png',
   docsBranch: 'master',
   docsDir: 'docs',
-  contributors:false
+  contributors:false,
+  lastUpdated:false
 }
