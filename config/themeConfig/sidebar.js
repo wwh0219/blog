@@ -134,6 +134,10 @@ module.exports=[
         text:'npm link调试错处理',
         link:'/issues/npm-link-dev',
       },
+      {
+        text:'yarn迁移到pnpm',
+        link:'/issues/migrate-to-pnpm',
+      }
     ]
   },
   
