@@ -137,6 +137,10 @@ module.exports=[
       {
         text:'yarn迁移到pnpm',
         link:'/issues/migrate-to-pnpm',
+      },
+      {
+        text:'vite问题记录',
+        link:'/issues/vite',
       }
     ]
   },
