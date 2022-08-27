@@ -1,0 +1,1 @@
+const e={key:"v-26661a7d",path:"/base/event-loop.html",title:"Event Loop",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u6267\u884C\u987A\u5E8F",slug:"\u6267\u884C\u987A\u5E8F",children:[]}],filePathRelative:"base/event-loop.md"};export{e as data};

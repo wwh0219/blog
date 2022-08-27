@@ -1,0 +1,1 @@
+const e={key:"v-fb208216",path:"/base/ts/process-env.html",title:"p\u200Brocess.env\u53D8\u91CF\u58F0\u660E\u5408\u5E76",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"base/ts/process-env.md"};export{e as data};

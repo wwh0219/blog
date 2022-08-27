@@ -1,0 +1,1 @@
+const e={key:"v-8daa1a0e",path:"/",title:"\u9996\u9875",lang:"en-US",frontmatter:{home:!0,title:"\u9996\u9875",heroImage:"/images/icon.png",tagline:"Welcome",heroText:"Personal Blog",actions:[{text:"GO",link:"/source-code/vue/keep-alive",type:"primary"}]},excerpt:"",headers:[],filePathRelative:"README.md"};export{e as data};

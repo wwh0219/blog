@@ -1,0 +1,1 @@
+const e={key:"v-e684a282",path:"/base/bfc.html",title:"BFC",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:3,title:"\u63CF\u8FF0",slug:"\u63CF\u8FF0",children:[]},{level:3,title:"\u89E6\u53D1\u6761\u4EF6",slug:"\u89E6\u53D1\u6761\u4EF6",children:[]},{level:3,title:"\u5E94\u7528",slug:"\u5E94\u7528",children:[]}],filePathRelative:"base/bfc.md"};export{e as data};
