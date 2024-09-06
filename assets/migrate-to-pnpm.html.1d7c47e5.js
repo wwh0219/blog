@@ -1,0 +1,1 @@
+const e={key:"v-2ef222ea",path:"/issues/migrate-to-pnpm.html",title:"\u4ECEyarn\u8FC1\u79FB\u5230pnpm",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u5355\u4ED3\u5E93",slug:"\u5355\u4ED3\u5E93",children:[]},{level:2,title:"monorepo",slug:"monorepo",children:[]}],filePathRelative:"issues/migrate-to-pnpm.md"};export{e as data};
