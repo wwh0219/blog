@@ -5,5 +5,5 @@ module.exports={
   plugins:[
     '@vuepress/plugin-search'
   ],
-  title:'还没想好'
+  title:'blog'
 }

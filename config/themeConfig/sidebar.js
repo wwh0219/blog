@@ -17,6 +17,10 @@ module.exports=[
           {
             text:'响应式原理',
             link:'/source-code/vue/reactive',
+          },
+          {
+            text:'Vue3响应式原理',
+            link:'/source-code/vue/vue3-reactive',
           }
         ]
       }
